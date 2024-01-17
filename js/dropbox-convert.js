@@ -7,7 +7,7 @@ function dropboxConvert() {
         // Return the modified link
         $("#dropbox-download-link").val(modifiedLink)
     } else {
-        $("#dropbox-download-link").val("Link not valid.")
+        $("#dropbox-download-link").val("Provided link not valid.")
     }
 }
 
