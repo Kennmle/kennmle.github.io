@@ -9,27 +9,28 @@
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
         <script src="./js/dropbox-convert.js"></script>
+        <link href="./css/style.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <h1>Get Downloadable Dropbox Link</h1>
-            <form action="()=>false">
+            <div class="form">
                 <div class="input-group mb-3">
                     <span class="input-group-text">Enter Dropbox Link</span>
                     <div class="form-floating">
-                      <input type="text" class="form-control" id="dropbox-link" placeholder="Dropbox Link">
-                      <label for="dropbox-link">Dropbox Link</label>
+                        <input type="text" class="form-control" id="dropbox-link" placeholder="Dropbox Link">
+                        <label for="dropbox-link">Dropbox Link</label>
                     </div>
                 </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text">Copy-and-Paste</span>
                     <div class="form-floating">
-                      <input type="text" class="form-control" id="dropbox-download-link" placeholder="New Link" readonly>
-                      <label for="dropbox-download-link">New Link</label>
+                        <input type="text" class="form-control" id="dropbox-download-link" placeholder="New Link" readonly>
+                        <label for="dropbox-download-link">New Link</label>
                     </div>
                 </div>
                 <button id="convert" class="btn btn-primary btn-lg">Convert</button>
-            </form>
+            </div>
         </div>
     </body>
 </html>
